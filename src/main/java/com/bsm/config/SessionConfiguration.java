@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-//@Configuration
+@Configuration
 public class SessionConfiguration implements WebMvcConfigurer {
 
     @Override
