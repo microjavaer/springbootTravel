@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>旅游信息管理型-省份列表页面</h3>
+<hr>
+<h4>省份列表</h4>
+
+<table>
+    <tr>
+        <td>ID</td>
+        <td width="10%">省份</td>
+        <td width="50%">标签</td>
+        <td width="10%">景点个数</td>
+        <td width="30%">操作</td>
+    </tr>
+
+    <tr th:each="tProvince : ${tProvinces}">
+        <td th:text="${tProvince.getId()}" id="proId">ID</td>
+        <td th:text="${tProvince.getName()}">省份</td>
+        <td th:text="${tProvince.getTags()}">标签</td>
+        <td th:text="${tProvince.getPlacecounts()}">景点个数</td>
+        <td><a th:href="@{/deleteProvince}">删除省份</a>&nbsp;&nbsp;<a th:href="@{/placelist(proId=${tProvince.getId()})}">景点列表</a>&nbsp;&nbsp;<a th:href="@{/updateProvince(proId=${tProvince.getId()})}">修改省份</a></td>
+    </tr>
+</table>
+<br>
+<input type="button" value="添加省份" onclick="window.location.href='/addProvince'">
+</body>
+</html>

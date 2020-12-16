@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>旅游信息管理型-省份列表页面</h3>
+<hr>
+<h4>省份列表</h4>
+
+<table>
+    <tr>
+        <td>ID</td>
+        <td>景点名称</td>
+        <td>景描述点</td>
+        <td>印象图</td>
+        <td>旺季时间</td>
+        <td>旺季门票</td>
+        <td>淡季门票</td>
+        <td>操作</td>
+    </tr>
+
+    <tr th:each="tPlace : ${tPlaces}">
+        <td th:text="${tPlace.getId()}" id="proId">ID</td>
+        <td th:text="${tPlace.getName()}">景点名称</td>
+        <td th:text="${tPlace.getPlacedes()}">景点描述</td>
+        <td><img th:src="${tPlace.getPicpath()}" /></td>
+        <td th:text="${#dates.format(tPlace.getHottime(), 'yyyy-MM-dd HH:mm')}">旺季时间</td>
+        <td th:text="${tPlace.getHotticket()}">旺季门票</td>
+        <td th:text="${tPlace.getDimticket()}">淡季门票</td>
+        <td><a th:href="@{/deletePlace}">删除景点</a>&nbsp;&nbsp;<a th:href="@{/updatePlace(proId=${tPlace.getId()})}">修改景点</a></td>
+    </tr>
+</table>
+<br>
+<input type="button" value="添加景点" onclick="window.location.href='/addPlace'">
+<a th:href="@{/provincelist}">返回省份列表</a>
+</body>
+</html>

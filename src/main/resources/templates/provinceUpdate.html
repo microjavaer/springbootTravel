@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+<h3>旅游信息管理型-修改省份页面</h3>
+<form id="loginForm" th:action="@{/login}" method="post">
+    省份：<input type="text" th:value="${tProvince.getName()}" name="name"><br>
+    标签：<input type="text" th:value="${tProvince.getTags()}" name="tags"><br>
+    <input type="hidden" name="id" th:value="${tProvince.getId()}">
+    <input type="button" onclick="subUpdate();" value="提交"> <a href="javascript:history.go(-1);">返回</a>
+</form>
+
+<script th:inline="javascript">
+
+
+    function subUpdate() {
+        $.ajax({
+            type:"POST",
+            url:"/updateProvince",
+            dataType: "json",
+            data:$('#loginForm').serialize(),
+            success: function (data) {
+                alert(data.message);
+                if (data.code != 200) {
+                    return ;
+                }
+
+                window.location.reload();
+            }
+        });
+    }
+</script>
+</body>
+</html>

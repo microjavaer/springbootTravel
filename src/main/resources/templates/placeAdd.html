@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+<h3>旅游信息管理型-添加景点页面</h3>
+<form id="loginForm" th:action="@{/login}" method="post" enctype="multipart/form-data">
+    景点：<input type="text" name="name"><br>
+    印象图片：<input type="file" name="file"><br>
+    旺季时间：<input type="text" name="hottime"><br>
+    旺季门票：<input type="text" name="hotticket"><br>
+    淡季门票：<input type="text" name="dimticket"><br>
+    景点描述：<input type="text" name="placedes"><br>
+    所属省份：<select name="provinceid">
+                <option th:value="0">请选择省份</option>
+                <option th:each="tProvince : ${tProvinces}" th:value="${tProvince.getId()}" th:text="${tProvince.getName()}"></option>
+              </select><br/>
+    <input type="button" onclick="subAdd();" value="提交"> <a href="javascript:history.go(-1);">返回</a>
+</form>
+
+<script th:inline="javascript">
+
+    function subAdd() {
+        var form = new FormData(document.getElementById("loginForm"));
+        $.ajax({
+            type:"POST",
+            url:"/addPlace",
+            dataType: "json",
+            data: form,
+            processData:false,
+            contentType:false,
+            success: function (data) {
+                alert(data.message);
+                if (data.code != 200) {
+                    return ;
+                }
+
+                window.location.reload();
+            },
+            error:function(e){
+                alert("网络错误！！");
+            }
+        });
+    }
+</script>
+</body>
+</html>

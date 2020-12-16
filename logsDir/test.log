@@ -1,0 +1,13 @@
+myTravel - 2020-12-16 10:49:27,759  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 33524 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:49:27,803  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:49:29,305  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:49:29,306  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:49:29,306  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:49:29,379  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:49:29,612  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:49:29,747  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:49:30,910  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:49:30,937  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 3.737 seconds (JVM running for 4.733)
+myTravel - 2020-12-16 10:49:31,126  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 10:49:31,132  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'

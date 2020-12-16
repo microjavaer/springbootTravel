@@ -1,0 +1,539 @@
+myTravel - 2020-12-16 09:25:06,746  INFO [SpringContextShutdownHook][DruidDataSource.java:1948] - {dataSource-1} closing ...
+myTravel - 2020-12-16 09:25:07,308  INFO [SpringContextShutdownHook][DruidDataSource.java:2020] - {dataSource-1} closed
+myTravel - 2020-12-16 09:25:27,192  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 29532 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:25:27,209  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:25:30,084  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:25:30,085  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:25:30,085  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:25:30,226  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:25:30,543  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:25:30,769  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 09:25:33,380  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:25:33,419  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 7.672 seconds (JVM running for 10.808)
+myTravel - 2020-12-16 09:25:46,041  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=FDF99ECD0570488FA0B204574A326C53] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 09:25:46,059  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 09:26:00,243  ERROR [http-nio-8989-exec-7][GlobalExceptionHandler.java:25] - 统一Controller系统异常，异常信息:/ by zero, 异常堆栈 java.lang.ArithmeticException: / by zero
+myTravel - 2020-12-16 09:26:00,305  INFO [http-nio-8989-exec-7][GlobalExceptionHandler.java:65] - 居然是同步的~~~~
+myTravel - 2020-12-16 09:26:23,125  INFO [Thread-23][DruidDataSource.java:1948] - {dataSource-1} closing ...
+myTravel - 2020-12-16 09:26:23,144  INFO [Thread-23][DruidDataSource.java:2020] - {dataSource-1} closed
+myTravel - 2020-12-16 09:26:23,601  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 29532 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:26:23,604  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:26:23,914  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:26:23,915  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:26:23,915  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:26:23,953  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:26:23,978  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:26:24,003  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-2} inited
+myTravel - 2020-12-16 09:26:24,324  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:26:24,344  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 1.017 seconds (JVM running for 61.733)
+myTravel - 2020-12-16 09:26:24,373  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 09:26:27,163  INFO [Thread-32][DruidDataSource.java:1948] - {dataSource-2} closing ...
+myTravel - 2020-12-16 09:26:27,164  INFO [Thread-32][DruidDataSource.java:2020] - {dataSource-2} closed
+myTravel - 2020-12-16 09:26:27,300  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 29532 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:26:27,301  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:26:27,736  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:26:27,737  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:26:27,738  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:26:27,801  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:26:27,821  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:26:27,846  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-3} inited
+myTravel - 2020-12-16 09:26:28,115  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:26:28,119  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 0.845 seconds (JVM running for 65.508)
+myTravel - 2020-12-16 09:26:30,825  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 09:27:57,717  ERROR [http-nio-8989-exec-1][GlobalExceptionHandler.java:25] - 统一Controller系统异常，异常信息:sleep interrupted, 异常堆栈 java.lang.InterruptedException: sleep interrupted
+myTravel - 2020-12-16 09:27:57,717  ERROR [http-nio-8989-exec-10][GlobalExceptionHandler.java:25] - 统一Controller系统异常，异常信息:sleep interrupted, 异常堆栈 java.lang.InterruptedException: sleep interrupted
+myTravel - 2020-12-16 09:27:57,719  INFO [http-nio-8989-exec-1][GlobalExceptionHandler.java:65] - 居然是同步的~~~~
+myTravel - 2020-12-16 09:27:57,719  INFO [http-nio-8989-exec-10][GlobalExceptionHandler.java:65] - 居然是同步的~~~~
+myTravel - 2020-12-16 09:27:57,761  INFO [Thread-37][DruidDataSource.java:1948] - {dataSource-3} closing ...
+myTravel - 2020-12-16 09:27:57,767  INFO [Thread-37][DruidDataSource.java:2020] - {dataSource-3} closed
+myTravel - 2020-12-16 09:27:58,038  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 29532 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:27:58,039  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:27:58,271  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:27:58,272  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:27:58,272  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:27:58,282  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:27:58,304  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:27:58,329  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-4} inited
+myTravel - 2020-12-16 09:27:58,575  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:27:58,580  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 0.575 seconds (JVM running for 155.969)
+myTravel - 2020-12-16 09:27:59,098  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 09:28:00,124  INFO [Thread-42][DruidDataSource.java:1948] - {dataSource-4} closing ...
+myTravel - 2020-12-16 09:28:00,125  INFO [Thread-42][DruidDataSource.java:2020] - {dataSource-4} closed
+myTravel - 2020-12-16 09:28:00,281  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 29532 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:28:00,281  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:28:00,459  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:28:00,460  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:28:00,460  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:28:00,472  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:28:00,489  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:28:00,511  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-5} inited
+myTravel - 2020-12-16 09:28:00,723  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:28:00,728  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 0.475 seconds (JVM running for 158.117)
+myTravel - 2020-12-16 09:28:01,108  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 09:28:01,620  ERROR [http-nio-8989-exec-1][GlobalExceptionHandler.java:25] - 统一Controller系统异常，异常信息:Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379, 异常堆栈 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+myTravel - 2020-12-16 09:28:01,642  INFO [http-nio-8989-exec-1][GlobalExceptionHandler.java:65] - 居然是同步的~~~~
+myTravel - 2020-12-16 09:43:32,777  INFO [Thread-47][DruidDataSource.java:1948] - {dataSource-5} closing ...
+myTravel - 2020-12-16 09:43:32,778  INFO [Thread-47][DruidDataSource.java:2020] - {dataSource-5} closed
+myTravel - 2020-12-16 09:43:32,961  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 29532 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:43:32,962  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:43:33,157  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:43:33,157  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:43:33,157  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:43:33,299  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:43:33,318  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:43:33,343  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-6} inited
+myTravel - 2020-12-16 09:43:33,604  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:43:33,617  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 0.688 seconds (JVM running for 1091.003)
+myTravel - 2020-12-16 09:43:40,329  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 23704 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:43:40,338  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:43:41,759  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:43:41,760  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:43:41,760  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:43:41,827  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:43:41,901  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:43:42,153  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 09:43:44,467  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:43:44,489  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 4.977 seconds (JVM running for 5.811)
+myTravel - 2020-12-16 09:43:44,609  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 09:43:44,613  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 09:43:47,497  ERROR [http-nio-8989-exec-2][GlobalExceptionHandler.java:25] - 统一Controller系统异常，异常信息:null, 异常堆栈 BussionException(customizeCode=SEARCH_RESULT_NOT_FOUND)
+myTravel - 2020-12-16 09:43:47,498  INFO [http-nio-8989-exec-2][GlobalExceptionHandler.java:65] - 居然是同步的~~~~
+myTravel - 2020-12-16 09:48:42,479  INFO [Thread-13][DruidDataSource.java:1948] - {dataSource-1} closing ...
+myTravel - 2020-12-16 09:48:42,488  INFO [Thread-13][DruidDataSource.java:2020] - {dataSource-1} closed
+myTravel - 2020-12-16 09:48:42,858  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 23704 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:48:42,859  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:48:43,212  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:48:43,213  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:48:43,213  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:48:43,224  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:48:43,245  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:48:43,269  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-2} inited
+myTravel - 2020-12-16 09:48:43,589  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:48:43,600  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 0.797 seconds (JVM running for 304.921)
+myTravel - 2020-12-16 09:48:44,128  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 09:48:45,205  INFO [Thread-20][DruidDataSource.java:1948] - {dataSource-2} closing ...
+myTravel - 2020-12-16 09:48:45,207  INFO [Thread-20][DruidDataSource.java:2020] - {dataSource-2} closed
+myTravel - 2020-12-16 09:48:45,390  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 23704 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:48:45,393  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:48:45,613  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:48:45,613  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:48:45,613  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:48:45,627  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:48:45,647  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:48:45,670  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-3} inited
+myTravel - 2020-12-16 09:48:45,881  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:48:45,886  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 0.531 seconds (JVM running for 307.208)
+myTravel - 2020-12-16 09:48:49,380  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 09:49:31,264  INFO [Thread-25][DruidDataSource.java:1948] - {dataSource-3} closing ...
+myTravel - 2020-12-16 09:49:31,265  INFO [Thread-25][DruidDataSource.java:2020] - {dataSource-3} closed
+myTravel - 2020-12-16 09:49:31,515  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 23704 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:49:31,515  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:49:31,926  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:49:31,926  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:49:31,926  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:49:31,946  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:49:32,112  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:49:32,135  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-4} inited
+myTravel - 2020-12-16 09:49:32,153  INFO [restartedMain][DruidDataSource.java:1948] - {dataSource-4} closing ...
+myTravel - 2020-12-16 09:49:32,154  INFO [restartedMain][DruidDataSource.java:2020] - {dataSource-4} closed
+myTravel - 2020-12-16 09:49:32,154  INFO [restartedMain][DirectJDKLog.java:173] - Stopping service [Tomcat]
+myTravel - 2020-12-16 09:49:35,826  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 23704 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:49:35,826  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:49:36,185  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:49:36,185  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:49:36,186  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:49:36,233  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:49:36,270  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:49:36,310  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-5} inited
+myTravel - 2020-12-16 09:49:36,614  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:49:36,629  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 0.83 seconds (JVM running for 357.95)
+myTravel - 2020-12-16 09:50:15,809  INFO [Thread-30][DruidDataSource.java:1948] - {dataSource-5} closing ...
+myTravel - 2020-12-16 09:50:15,810  INFO [Thread-30][DruidDataSource.java:2020] - {dataSource-5} closed
+myTravel - 2020-12-16 09:50:16,019  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 23704 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:50:16,020  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:50:16,214  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:50:16,214  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:50:16,214  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:50:16,244  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:50:16,987  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:50:17,026  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-6} inited
+myTravel - 2020-12-16 09:50:17,049  INFO [restartedMain][DruidDataSource.java:1948] - {dataSource-6} closing ...
+myTravel - 2020-12-16 09:50:17,050  INFO [restartedMain][DruidDataSource.java:2020] - {dataSource-6} closed
+myTravel - 2020-12-16 09:50:17,050  INFO [restartedMain][DirectJDKLog.java:173] - Stopping service [Tomcat]
+myTravel - 2020-12-16 09:50:33,594  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 23704 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:50:33,595  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:50:33,745  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:50:33,745  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:50:33,745  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:50:33,755  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:50:33,979  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:50:34,006  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-7} inited
+myTravel - 2020-12-16 09:50:34,023  INFO [restartedMain][DruidDataSource.java:1948] - {dataSource-7} closing ...
+myTravel - 2020-12-16 09:50:34,023  INFO [restartedMain][DruidDataSource.java:2020] - {dataSource-7} closed
+myTravel - 2020-12-16 09:50:34,024  INFO [restartedMain][DirectJDKLog.java:173] - Stopping service [Tomcat]
+myTravel - 2020-12-16 09:50:36,642  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 23704 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:50:36,642  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:50:36,956  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:50:36,956  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:50:36,956  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:50:36,974  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:50:36,998  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:50:37,022  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-8} inited
+myTravel - 2020-12-16 09:50:37,283  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:50:37,291  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 0.678 seconds (JVM running for 418.612)
+myTravel - 2020-12-16 09:50:49,328  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 10220 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 09:50:49,355  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 09:50:50,411  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:50:50,412  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 09:50:50,413  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 09:50:50,515  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 09:50:50,586  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 09:50:50,768  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 09:50:51,592  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 09:50:51,614  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 2.807 seconds (JVM running for 3.62)
+myTravel - 2020-12-16 09:50:54,412  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 09:50:54,420  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 09:52:16,996  ERROR [http-nio-8989-exec-4][TemplateEngine.java:1136] - [THYMELEAF][http-nio-8989-exec-4] Exception processing template "provincelist": An error happened during template parsing (template: "class path resource [templates/provincelist.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/provincelist.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "10%" (template: "provincelist" - line 15, col 13)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 54 more
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "10%" (template: "provincelist" - line 15, col 13)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 56 more
+myTravel - 2020-12-16 09:52:17,004  ERROR [http-nio-8989-exec-4][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/provincelist.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "10%" (template: "provincelist" - line 15, col 13)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+myTravel - 2020-12-16 10:02:21,309  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 33784 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:02:21,326  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:02:22,774  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:02:22,774  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:02:22,774  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:02:22,851  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:02:22,997  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:02:23,204  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:02:24,103  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:02:24,128  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 3.25 seconds (JVM running for 4.045)
+myTravel - 2020-12-16 10:02:26,056  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 10:02:26,061  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 10:08:13,410  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 19900 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:08:13,418  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:08:14,639  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:08:14,639  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:08:14,640  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:08:14,700  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:08:14,774  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:08:14,930  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:08:15,927  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:08:15,951  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 3.047 seconds (JVM running for 4.156)
+myTravel - 2020-12-16 10:08:16,680  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 10:08:16,689  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 10:08:52,723  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 29516 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:08:52,735  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:08:53,770  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:08:53,770  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:08:53,771  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:08:53,828  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:08:53,899  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:08:54,066  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:08:54,988  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:08:55,014  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 2.875 seconds (JVM running for 3.688)
+myTravel - 2020-12-16 10:09:01,650  INFO [Thread-11][DruidDataSource.java:1948] - {dataSource-1} closing ...
+myTravel - 2020-12-16 10:09:01,651  INFO [Thread-11][DruidDataSource.java:2020] - {dataSource-1} closed
+myTravel - 2020-12-16 10:09:01,798  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 29516 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:09:01,799  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:09:02,027  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:09:02,028  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:09:02,028  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:09:02,049  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:09:12,381  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 10608 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:09:12,389  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:09:13,389  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:09:13,390  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:09:13,390  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:09:13,447  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:09:13,524  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:09:13,685  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:09:14,532  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:09:14,554  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 2.714 seconds (JVM running for 3.497)
+myTravel - 2020-12-16 10:09:17,964  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 10:09:17,968  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 10:18:17,222  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 10500 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:18:17,229  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:18:18,409  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:18:18,410  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:18:18,410  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:18:18,472  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:18:18,554  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:18:18,729  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:18:19,567  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:18:19,588  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 2.71 seconds (JVM running for 3.417)
+myTravel - 2020-12-16 10:18:30,302  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 10:18:30,306  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 10:19:40,130  ERROR [http-nio-8989-exec-9][PlaceController.java:95] - java.io.FileNotFoundException: C:\Users\shumin.bao\AppData\Local\Temp\tomcat.8989.4326309736259847351\work\Tomcat\localhost\ROOT\classpath:javaDir\images\b53d190a-dae4-4c67-95fe-f484a4eece4c.jpg (文件名、目录名或卷标语法不正确。)
+myTravel - 2020-12-16 10:20:39,804  INFO [Thread-11][DruidDataSource.java:1948] - {dataSource-1} closing ...
+myTravel - 2020-12-16 10:20:39,832  INFO [Thread-11][DruidDataSource.java:2020] - {dataSource-1} closed
+myTravel - 2020-12-16 10:20:40,000  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 10500 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:20:40,001  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:20:40,371  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:20:40,372  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:20:40,372  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:20:40,388  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:20:40,419  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:20:40,454  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-2} inited
+myTravel - 2020-12-16 10:20:40,784  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:20:40,790  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 0.837 seconds (JVM running for 144.618)
+myTravel - 2020-12-16 10:20:43,808  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 10:20:43,827  ERROR [http-nio-8989-exec-1][PlaceController.java:95] - java.io.FileNotFoundException: C:\Users\shumin.bao\AppData\Local\Temp\tomcat.8989.4840343273217369769\work\Tomcat\localhost\ROOT\.\javaDir\images\2428fedd-8328-4699-8713-a6ea89e11cd3.jpg (系统找不到指定的路径。)
+myTravel - 2020-12-16 10:20:52,437  INFO [Thread-18][DruidDataSource.java:1948] - {dataSource-2} closing ...
+myTravel - 2020-12-16 10:20:52,438  INFO [Thread-18][DruidDataSource.java:2020] - {dataSource-2} closed
+myTravel - 2020-12-16 10:20:52,616  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 10500 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:20:52,616  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:20:52,831  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:20:52,831  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:20:52,831  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:20:52,842  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:20:52,859  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:20:52,881  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-3} inited
+myTravel - 2020-12-16 10:20:53,110  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:20:53,115  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 0.528 seconds (JVM running for 156.943)
+myTravel - 2020-12-16 10:20:54,672  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 10:20:54,689  ERROR [http-nio-8989-exec-1][PlaceController.java:95] - java.io.FileNotFoundException: C:\Users\shumin.bao\AppData\Local\Temp\tomcat.8989.519867398966047864\work\Tomcat\localhost\ROOT\javaDir\images\d885b971-6dea-4517-bf57-b58a3af6acef.jpg (系统找不到指定的路径。)
+myTravel - 2020-12-16 10:21:40,876  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 30772 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:21:40,883  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:21:41,814  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:21:41,815  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:21:41,815  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:21:41,872  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:21:41,943  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:21:42,096  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:21:42,890  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:21:42,911  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 2.526 seconds (JVM running for 3.278)
+myTravel - 2020-12-16 10:21:45,055  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 10:21:45,061  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 10:24:26,060  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 27132 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:24:26,069  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:24:27,051  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:24:27,052  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:24:27,052  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:24:27,112  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:24:27,179  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:24:27,331  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:24:28,323  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:24:28,344  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 2.928 seconds (JVM running for 3.847)
+myTravel - 2020-12-16 10:24:28,816  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 10:24:28,820  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 10:28:20,507  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 11152 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:28:20,530  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:28:21,832  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:28:21,832  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:28:21,833  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:28:21,934  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:28:22,035  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:28:22,233  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:28:23,462  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:28:23,488  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 3.385 seconds (JVM running for 5.359)
+myTravel - 2020-12-16 10:28:23,596  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 10:28:23,603  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 10:34:12,587  INFO [Thread-14][DruidDataSource.java:1948] - {dataSource-1} closing ...
+myTravel - 2020-12-16 10:34:12,596  INFO [Thread-14][DruidDataSource.java:2020] - {dataSource-1} closed
+myTravel - 2020-12-16 10:34:12,818  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 11152 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:34:12,819  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:34:13,049  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:34:13,049  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:34:13,049  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:34:13,063  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:34:13,324  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:34:13,356  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-2} inited
+myTravel - 2020-12-16 10:34:13,385  INFO [restartedMain][DruidDataSource.java:1948] - {dataSource-2} closing ...
+myTravel - 2020-12-16 10:34:13,386  INFO [restartedMain][DruidDataSource.java:2020] - {dataSource-2} closed
+myTravel - 2020-12-16 10:34:13,387  INFO [restartedMain][DirectJDKLog.java:173] - Stopping service [Tomcat]
+myTravel - 2020-12-16 10:34:26,926  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 14380 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:34:26,935  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:34:28,161  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:34:28,162  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:34:28,162  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:34:28,227  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:34:28,380  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:34:28,501  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:34:29,555  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:34:29,580  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 3.389 seconds (JVM running for 4.588)
+myTravel - 2020-12-16 10:34:33,030  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 10:34:33,038  INFO [http-nio-8989-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+myTravel - 2020-12-16 10:49:22,953  INFO [SpringContextShutdownHook][DruidDataSource.java:1948] - {dataSource-1} closing ...
+myTravel - 2020-12-16 10:49:22,958  INFO [SpringContextShutdownHook][DruidDataSource.java:2020] - {dataSource-1} closed
+myTravel - 2020-12-16 10:49:27,759  INFO [restartedMain][StartupInfoLogger.java:55] - Starting TravelApplication using Java 1.8.0_191 on 4CV8189DXK with PID 33524 (D:\intellijProject\travel\target\classes started by shumin.bao in D:\intellijProject\travel)
+myTravel - 2020-12-16 10:49:27,803  INFO [restartedMain][SpringApplication.java:660] - No active profile set, falling back to default profiles: default
+myTravel - 2020-12-16 10:49:29,305  INFO [restartedMain][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:49:29,306  INFO [restartedMain][DirectJDKLog.java:173] - Starting service [Tomcat]
+myTravel - 2020-12-16 10:49:29,306  INFO [restartedMain][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+myTravel - 2020-12-16 10:49:29,379  INFO [restartedMain][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+myTravel - 2020-12-16 10:49:29,612  INFO [restartedMain][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+myTravel - 2020-12-16 10:49:29,747  INFO [restartedMain][DruidDataSource.java:1003] - {dataSource-1} inited
+myTravel - 2020-12-16 10:49:30,910  INFO [restartedMain][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8989"]
+myTravel - 2020-12-16 10:49:30,937  INFO [restartedMain][StartupInfoLogger.java:61] - Started TravelApplication in 3.737 seconds (JVM running for 4.733)
+myTravel - 2020-12-16 10:49:31,126  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - A cookie header was received [1591579661; ts_uid=8391721696; xn_dvid_undefined=CBC259-83DA7BD4-42E8-2D0C-FC4B-8F07AF86ABC8; xn_dvid_gb_1000=0534A3-17FE8BDD-C7B1-932E-23A3-8F07B08DE800; JSESSIONID=2A3F93A8A752777D2B9B090FF932C438] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+myTravel - 2020-12-16 10:49:31,132  INFO [http-nio-8989-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'

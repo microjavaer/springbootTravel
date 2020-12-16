@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+    <h3>旅游信息管理型-登录页面</h3>
+    <form id="loginForm" th:action="@{/login}" method="post">
+        账号：<input type="text" name="username"><br>
+        密码：<input type="text" name="password"><br>
+        验证码：<input type="text" name="verCode"><img id="imgVcode" th:src="@{/captcha}"/> <br>
+        <input type="button" onclick="subLogin();" value="提交"> <a th:href="@{/register}">去注册</a>
+    </form>
+
+    <script th:inline="javascript">
+
+        //点击图片更换验证码    拼接时间戳
+        $("#imgVcode").click(function(){
+            $(this).attr('src', "/captcha?date="+new Date().getTime());
+        });
+
+        function subLogin() {
+            $.ajax({
+                type:"POST",
+                url:"/login",
+                dataType: "json",
+                data:$('#loginForm').serialize(),
+                success: function (data) {
+                    alert(data.message);
+                    if (data.code != 200) {
+                        return ;
+                    }
+
+                    window.location.href = "/index";
+                }
+            });
+        }
+</script>
+</body>
+</html>
